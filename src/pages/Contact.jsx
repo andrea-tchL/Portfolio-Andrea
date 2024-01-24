@@ -77,8 +77,8 @@ const Contact = () => {
               {isloading ? 'Envoie en cours...' : 'Envoyer'}
             </button>
         </form>
-        <a href='https://www.linkedin.com/in/andrea-tchouambou-054b481a1/' className= "w-20 "> <img src={linkedin}/> </a>
-        <a href='https://github.com/andrea-tchL' className= "w-7 "> <img src={github}/> </a>
+        <a href='https://www.linkedin.com/in/andrea-tchouambou-054b481a1/' className= "w-20 " target="_blank"> <img src={linkedin}/> </a>
+        <a href='https://github.com/andrea-tchL' className= "w-7 " target="_blank"> <img src={github}/> </a>
       </div>
       
       <div className=' backgroundRotate bg-white rounded-lg w-[60vh] h-[70vh] mt-28 ml-9 absolute  '>
