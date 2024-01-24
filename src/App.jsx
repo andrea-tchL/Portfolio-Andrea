@@ -1,6 +1,6 @@
 import {Route, BrowserRouter, Routes} from 'react-router-dom';
-import NaviguationBar from './components/naviguationBar';
-import {Home,About,Contact,Projects} from './pages/index';
+import NaviguationBar from './components/NaviguationBar.jsx';
+import {Home,About,Contact,Projects} from './pages/index.js';
 
 
 const App = () => {
